@@ -1,0 +1,36 @@
+.customer-form-container {
+  padding: 20px;
+  width: 40%;
+  margin: 20px auto;
+  border: 1px solid lightgrey;
+}
+
+.input-label {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  padding-bottom: 5px;
+}
+input {
+  width: 90%;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+}
+textarea {
+  width: 91%;
+  resize: none;
+}
+.add-btn {
+  padding: 5px 10px;
+  border: 1px solid white;
+  background-color: green;
+  color: white;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  .customer-form-container {
+    width: 90%;
+  }
+}
