@@ -52,7 +52,7 @@ function EditForm(props) {
       address: address,
     })
       .then(() => {
-        alert("Success!");
+        alert("Details updated Successfully!");
         props.setRefresh((prev) => !prev);
         setFullname("");
         setEmail("");
