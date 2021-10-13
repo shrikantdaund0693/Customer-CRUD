@@ -22,6 +22,7 @@ function Customer(props) {
         <table className="table table-bordered table-striped">
           <thead>
             <tr>
+              <th>Profile Photo</th>
               <th>Full Name</th>
               <th>Email</th>
               <th>Mobile Number</th>
@@ -33,6 +34,13 @@ function Customer(props) {
             {props.customers.map((customer) => {
               return (
                 <tr key={customer.id}>
+                  <td>
+                    <img
+                      className="img profile-img"
+                      src={customer.data.profileUrl}
+                      alt="Profile"
+                    ></img>
+                  </td>
                   <td>{customer.data.fullname}</td>
                   <td>{customer.data.email}</td>
                   <td>{customer.data.mobile}</td>

@@ -22,3 +22,8 @@
   text-decoration: none;
   color: white;
 }
+.profile-img {
+  width: 150px;
+  object-fit: contain;
+  padding: 20px;
+}
